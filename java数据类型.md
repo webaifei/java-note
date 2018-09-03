@@ -34,3 +34,11 @@
 1. 这2种类型是兼容的。
 2. 目的类型数的范围比来源类型的大。
 
+```java
+    double + int // ok
+    float + short // ok
+    int + char //ok
+    boolean + other //no
+
+```
+
